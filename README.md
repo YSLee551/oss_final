@@ -3,7 +3,7 @@
 
 **Project name**
     
-    *Ticket Sales Management Program*
+    Ticket Sales Management Program
 
 **Inspiration**
 
