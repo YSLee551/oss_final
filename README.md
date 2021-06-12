@@ -1,15 +1,23 @@
 # 2021-1 OSS Lab Class Final Project
+22000551 Yongseok Lee
 
 **Project name**
+    
     *Ticket Sales Management Program*
+
+**Inspiration**
+
+      In Handong, there are many concerts that sell tickets. I’ve seen most of them writing sales record by hand.
+      This way is slow, you can’t sort, if you want to get some meaningful info from the data you have to calculate every time a new dataset comes in.
+
 
 **What does this project do?**
 
     ● This project makes managing ticket sales much easier.
     
-    ● Enter reservation info.
+    ● Enter reservation info and save in file.
   
-    ● Calculates and searches data from the list.
+    ● Calculates, sorts, and searches data from the list.
   
    
 **Why is this project useful?**
@@ -46,13 +54,18 @@
     
     7. Enter an option number to use functions.
     
-    8. You can save the result with option 7. Save.
+    8. You can save the result with option <7. Save≥>.
   
       
 **Where can I get more help, if I need it?**
  
     email: 22000551@handong.edu
-  
+ 
+**Contributions**
+
+    I, Yongseok Lee, came up with idea, designed, and developed on my own.
+    I referenced binary search tree algorithm from Data Structure class.
+   
 **Presentation Video**
-    -> https://youtu.be/
+    -> https://youtu.be/1qw6ul-of9Y
   
