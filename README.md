@@ -1,7 +1,7 @@
 # 2021-1 OSS Lab Class Final Project
 
 **Project name**
-*Ticket Sales Management Program*
+    *Ticket Sales Management Program*
 
 **What does this project do?**
 
@@ -14,7 +14,7 @@
    
 **Why is this project useful?**
 
-    ● You can easiely open an existing file to continue writing.
+    ● You can easily open an existing file to continue writing.
   
     ● Saves list in a file for later.
   
@@ -23,35 +23,36 @@
    
 **How do I get started?**
 
-    ● First, only thing you need is a computer connected to internet.
+    1. Only thing you need is a raspberrypi computer connected to internet.
     
-    ● Second, download zip file or 
+    2. Download zip file or clone this project.
+       
+       $ git clone https://github.com/YSLee551/oss_final.git
   
-      1. cctv.py
+    3. In terminal, go to the directory where the file is located.
     
-      2. siren.wav
+    4. Compile oss_final.cpp file with g++. If you don't have g++, you can easily download with apt-get.
     
-  
-    ● Finally, type "python cctv.py" in the directory where the file is located.
+        $ sudo apt-get update
+        $ sudo apt-get install g++
+    
+        $ g++ -o management_program oss_final.cpp
+        
+    5. Run compiled file.
+        
+        $ ./management_program
+        
+    6. Enter the name of your list file. The names of sample list files are <ticket.txt> and <new_ticket.txt>.
+    
+    7. Enter an option number to use functions.
+    
+    8. You can save the result with option 7. Save.
   
       
- **Where can I get more help, if I need it?**
+**Where can I get more help, if I need it?**
  
-      1. https://m.blog.naver.com/chandong83/220732917839
+    email: 22000551@handong.edu
   
-      2. https://www.youtube.com/watch?v=93K2Crndvfc
-      
-**Materials I used(citation)**
-
-        ●https://blog.naver.com/icbanq/221687097041
-
-**Newly Added Items**
-
-        ●The existing CCTVs have been developed into CCTVs that sound siren.
-        ●I think a clearer crime prevention is in line with the purpose of this project. 
-        ●Additionally, the code has been modified to make an alarm sound by connecting with the speaker, and the video has been save every 15 seconds and the alarm has been set to sound.
-
-  
-  **Address of Final Presentation Video**
-      -> https://youtu.be/cG3y2maxZdw
+**Presentation Video**
+    -> https://youtu.be/
   
